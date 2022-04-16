@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "telebot"
+version = "0.1.0"
+description = ""
+authors = ["a-khomitskyi <homitskiy.andriy@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+requests = "^2.27.1"
+python-dotenv = "^0.20.0"
+python-telegram-bot = "^13.11"
+pyTelegramBotAPI = "^4.4.0"
+vedis = "^0.7.1"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
